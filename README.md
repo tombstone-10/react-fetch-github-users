@@ -11,7 +11,6 @@ In this project we:
 
 ```js
 useEffect(() => {
-  // you can also setup function outside
   const fetchData = async () => {
     try {
       const response = await fetch(url);
